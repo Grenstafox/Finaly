@@ -1,0 +1,35 @@
+*:focus{outline: none;}
+
+body{
+    width: 1440px; height: 900; margin: auto; background-color: #000000;
+    font: 14px/21px "Lucida Sans", "Lucida Grande", Lucida Sans Unicode, sans-serif;
+}
+
+header{width: 1440px; height: 297px; background-color: #ffffff;}
+
+nav{
+    width: 1440px; height: 41px; background-color: #f8c06d;
+}
+
+ul{
+    margin: 0 auto; overflow: hidden; text-align: left; list-style: none;
+}
+
+nav li a{
+    float: left; background-color: rgb(39, 94, 212);color: #fff; text-decoration: none;
+    padding: 10px 14px; display: block;
+}
+
+nav li a:hover{background-color: #f8c06d;}
+nav li ul{display: none; min-width: 140px; position: relative; left:  50%;}
+nav li:hover{display: block;}
+nav li ul{ position: relative;
+}
+
+main{
+    width: 1440px; height: 557px; background-color: #d37f01;
+}
+
+.formulario{background-color: rgb(237,251, 208);}
+
+.form_hibt, :required_notification{ font-size: 11px;}
